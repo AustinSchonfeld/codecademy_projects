@@ -46,7 +46,7 @@ all_data['Female_Population'] = np.int64(FemPop)
 print(all_data.head())
 print(all_data.dtypes)
 
-#drop GenderPop column as its no longer needed
+#drop GenderPop column as its no longer needed for this
 all_data = all_data.drop(columns = 'GenderPop')
 
 #check for duplicates
