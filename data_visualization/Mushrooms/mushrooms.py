@@ -17,3 +17,5 @@ for i in range(len(columns)):
     plt.show()
     plt.savefig(columns[i] + ".png")
     plt.clf()
+
+#this is a test comment
